@@ -1,0 +1,39 @@
+.form-group{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.control-label {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 70px;
+    width: 100%;
+    border:solid 1px #ccc;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 18px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 0.9);
+    flex: 2 2 310px;
+}
+
+
+ .form-control:hover{
+    box-shadow:#fff 0 0 0 5px,
+        #000 0 0 0 8px;
+}
+
+ .form-control:focus{
+    box-shadow: #fff 0 0 0 5px,
+        #000 0 0 0 8px;
+    outline:none;
+}
+
+
+
+

@@ -1,0 +1,124 @@
+.card {
+    position: relative;
+    min-width: 280px;
+    max-width: 480px;
+    min-height: 600px;
+    text-align: left;
+    border: solid 3px #000;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #fff;
+    top: 0;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.thumbnail-wrap {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 295px;
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card .thumbnail-wrap {
+    border-bottom: solid 3px #000;
+    margin-bottom: 28px
+}
+
+.thumbnail-wrap img {
+    width: 110%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card .content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 18px 18px 18px;
+    font-size: 1.13rem;
+}
+
+.content h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.content .footer-date {
+    color: #555;
+    margin-top: auto;
+}
+
+.card:hover {
+    top: -10px;
+    box-shadow: 0 17px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.card:hover .thumbnail-wrap {
+    filter: saturate(1);
+}
+
+.card:hover .thumbnail-wrap img {
+    top: 45%;
+}
+
+.card:hover a {
+    text-decoration: underline;
+}
+
+
+
+.card-sm {
+    text-align: left;
+    border: solid 3px #000;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #fff;
+    position: relative;
+    padding: 18px;
+    left: 0;
+    top: 0;
+}
+
+.card-sm h3 {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.card-sm h3 img {
+    margin-left: 10px;
+}
+
+.card-sm h3 a {
+    text-decoration: none;
+}
+
+.card-sm a {
+    color: #000;
+}
+
+.card-sm:hover {
+    border: solid 3px #000;
+    box-shadow: 10px 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width:624px) {
+    .card-sm:hover {
+        left: -10px;
+    }
+}
