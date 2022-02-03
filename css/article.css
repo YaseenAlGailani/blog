@@ -95,7 +95,7 @@
 
 #author-info .info-heading {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     gap: 18px;
@@ -114,7 +114,6 @@
 }
 
 #author-info .avatar img {
-    width: 120%;
     position: absolute;
     top: 50%;
     left: 50%;
