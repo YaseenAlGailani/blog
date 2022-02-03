@@ -386,13 +386,6 @@ nav #home-text {
     grid-column-gap: 10px;
 }
 
-#landing-header .container>*:nth-child(1) {
-    -ms-grid-row: 1;
-    grid-row:1;
-    -ms-grid-column: 1;
-    grid-column:1;
-}
-
 #landing-header .header-img img {
     width: 80%;
     height: auto;
