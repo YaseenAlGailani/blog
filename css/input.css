@@ -1,7 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -18,17 +30,24 @@
     border-radius: 25px;
     padding: 10px 25px;
     font-size: 18px;
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 0.9);
+    -o-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 0.9);
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 0.9);
+    -webkit-box-flex: 2;
+    -ms-flex: 2 2 310px;
     flex: 2 2 310px;
 }
 
-
 .form-control:hover {
+    -webkit-box-shadow: #fff 0 0 0 5px,
+        #000 0 0 0 8px;
     box-shadow: #fff 0 0 0 5px,
         #000 0 0 0 8px;
 }
 
 .form-control:focus {
+    -webkit-box-shadow: #fff 0 0 0 5px,
+        #000 0 0 0 8px;
     box-shadow: #fff 0 0 0 5px,
         #000 0 0 0 8px;
     outline: none;
