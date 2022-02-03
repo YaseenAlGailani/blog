@@ -388,7 +388,9 @@ nav #home-text {
 
 #landing-header .container>*:nth-child(1) {
     -ms-grid-row: 1;
+    grid-row:1;
     -ms-grid-column: 1;
+    grid-column:1;
 }
 
 #landing-header .header-img img {
