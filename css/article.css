@@ -16,7 +16,7 @@
 }
 
 #article-img {
-    height: 280px;
+    line-height: 0;
     overflow: hidden;
     position: relative;
     border-radius: 7px;
@@ -26,10 +26,12 @@
 
 #article-img img {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
+    /*! top: 50%; */
+    /*! left: 50%; */
+    /*! transform: translate(-50%, -50%); */
+    /*! z-index: -1; */
+    height: auto;
+    max-width: 100%;
 }
 
 #main-article #article-content p {
@@ -165,6 +167,7 @@
 
 #article-content img {
     max-width: 100%;
+    height: auto;
 }
 
 #article-content p:first-of-type {

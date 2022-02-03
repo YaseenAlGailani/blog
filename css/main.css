@@ -4,7 +4,6 @@
 @import url("./buttons.css");
 @import url("./input.css");
 
-
 /* ---------------------------
             variables
 ----------------------------*/
@@ -16,7 +15,6 @@
     --secondary-type: 'Sedgwick Ave', cursive;
 
 }
-
 
 /* ---------------------------
             Generic
@@ -304,7 +302,6 @@ nav #home-text {
             Header
 ----------------------------*/
 
-
 #landing-header {
     border-bottom: solid 1px #eaeaea;
     padding: 50px 0;
@@ -340,7 +337,6 @@ nav #home-text {
     font-weight: 700;
 }
 
-
 #cta-share {
     display: flex;
     flex-wrap: wrap;
@@ -359,7 +355,6 @@ nav #home-text {
         font-size: 1.32rem;
     }
 }
-
 
 @media screen and (min-width:950px) {
 
@@ -386,13 +381,11 @@ nav #home-text {
     }
 }
 
-
 @media screen and (min-width:1350px) {
     #landing-header .container {
         grid-template-columns: 1fr 1.5fr;
     }
 }
-
 
 /* ---------------------------
         Articles grid
@@ -401,7 +394,6 @@ nav #home-text {
 #all-articles {
     padding: 62px 0;
 }
-
 
 #articles-outer-grid {
     display: block;
@@ -433,7 +425,6 @@ nav #home-text {
     min-width: 270px;
 }
 
-
 @media screen and (min-width:624px) {
     #articles-outer-grid {
         display: grid;
@@ -448,7 +439,6 @@ nav #home-text {
         overflow: visible;
     }
 }
-
 
 /* ---------------------------
             footer
@@ -483,17 +473,14 @@ footer .mid-footer {
 
 }
 
-
 .top-footer p {
     margin-bottom: 0;
 }
-
 
 .mid-footer {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
 
 footer #subscribe {
     flex: 3 3;
@@ -546,9 +533,6 @@ footer #social-links a:focus {
     text-align: center;
 }
 
-
-
-
 @media screen and (min-width:520px) {
     #subscribe .primary-btn {
         width: auto;
@@ -583,14 +567,12 @@ footer #social-links a:focus {
     }
 }
 
-
 @media screen and (min-width:1042px) {
     .mid-footer {
         padding-top: 100px;
         padding-bottom: 100px;
     }
 }
-
 
 /* ------------------
         Utils 
