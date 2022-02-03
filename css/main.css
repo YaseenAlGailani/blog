@@ -131,23 +131,19 @@ figcaption {
 
 .share-social .share-link {
     display: inline-flex;
-    width: 42px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 0.9);
+    margin: 2px;
+    padding: 5px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1.5);
 }
 
 .share-social .share-link:hover {
     box-shadow: 0 0 0 2px #000;
 }
-
-.share-social .share-link img {
-    width: 50%;
-    height: 50%;
-}
-
 
 
 @media screen and (min-width:560px) {
@@ -329,6 +325,7 @@ nav #home-text {
 
 #landing-header .header-img img {
     width: 80%;
+    height: auto;
 }
 
 #landing-header .header-img {
@@ -343,13 +340,13 @@ nav #home-text {
     font-weight: 700;
 }
 
-#share-blog {
-    display: inline-block;
-    margin-left: 30px;
-}
 
-.cta-btn {
-    margin-bottom: 15px;
+#cta-share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
 }
 
 @media screen and (min-width:560px) {
@@ -367,7 +364,7 @@ nav #home-text {
 @media screen and (min-width:950px) {
 
     #landing-header {
-        padding:0 0 62px;
+        padding: 0 0 62px;
     }
 
     #landing-header .container {
@@ -519,28 +516,28 @@ footer #subscribe p {
 }
 
 footer #social-links {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 20px;
-    justify-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-
     width: 100%;
+    gap: 10px;
 }
 
 footer #social-links a {
-    width: 2.5em;
-    height: 2.5em;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 0.9);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1.5);
     position: relative;
 }
 
-footer #social-links a:hover {
-    opacity: 0.7;
+footer #social-links a:hover,
+footer #social-links a:focus {
+    box-shadow: 0 0 0 2px #000;
 }
 
 .bottom-footer {
@@ -568,17 +565,17 @@ footer #social-links a:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: end;
     }
 
     footer #social-links {
-        display: inline-grid;
-        grid: 1fr 1fr / repeat(3, 50px);
-        gap: 20px;
-        justify-items: start;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
         align-items: center;
-        direction: rtl;
         flex: 1;
+        justify-content: end;
+        max-width: 200px;
     }
 
     .bottom-footer {

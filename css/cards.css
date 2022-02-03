@@ -1,7 +1,7 @@
 .card {
     position: relative;
     min-width: 280px;
-    max-width: 480px;
+    max-width: 400px;
     min-height: 600px;
     text-align: left;
     border: solid 3px #000;
@@ -32,7 +32,7 @@
 }
 
 .thumbnail-wrap img {
-    width: 110%;
+    width: 100%;
     height: auto;
     position: absolute;
     top: 50%;

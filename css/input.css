@@ -1,8 +1,8 @@
-.form-group{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-    justify-content:center;
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .control-label {
@@ -14,7 +14,7 @@
 .form-control {
     height: 70px;
     width: 100%;
-    border:solid 1px #ccc;
+    border: solid 1px #ccc;
     border-radius: 25px;
     padding: 10px 25px;
     font-size: 18px;
@@ -23,17 +23,13 @@
 }
 
 
- .form-control:hover{
-    box-shadow:#fff 0 0 0 5px,
-        #000 0 0 0 8px;
-}
-
- .form-control:focus{
+.form-control:hover {
     box-shadow: #fff 0 0 0 5px,
         #000 0 0 0 8px;
-    outline:none;
 }
 
-
-
-
+.form-control:focus {
+    box-shadow: #fff 0 0 0 5px,
+        #000 0 0 0 8px;
+    outline: none;
+}

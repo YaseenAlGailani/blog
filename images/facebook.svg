@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="9.893" height="18.471" viewBox="0 0 9.893 18.471">
-  <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M10.854,10.39l.513-3.343H8.16V4.878a1.671,1.671,0,0,1,1.885-1.806H11.5V.226A17.783,17.783,0,0,0,8.914,0C6.272,0,4.546,1.6,4.546,4.5V7.047H1.609V10.39H4.546v8.081H8.16V10.39Z" transform="translate(-1.609)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="facebook" transform="translate(-1161 -2766)">
+    <path id="circle" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(1161 2766)" fill="none"/>
+    <path id="icon" d="M12.13,11.825l.584-3.8H9.064V5.551A1.9,1.9,0,0,1,11.209,3.5h1.66V.257A20.238,20.238,0,0,0,9.922,0C6.916,0,4.951,1.822,4.951,5.121v2.9H1.609v3.8H4.951v9.2H9.064v-9.2Z" transform="translate(1171.761 2773.489)"/>
+  </g>
 </svg>
