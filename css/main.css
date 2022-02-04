@@ -5,11 +5,11 @@
 * Browsers: last 4 version
 */
 
-@import url("./normalize.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Sedgwick+Ave&display=swap');
-@import url("./cards.css");
-@import url("./buttons.css");
-@import url("./input.css");
+@import url(./normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Sedgwick+Ave&display=swap');
+@import url(./cards.css);
+@import url(./buttons.css);
+@import url(./input.css);
 
 /* ---------------------------
             variables
@@ -73,7 +73,10 @@ strong {
     font-weight: 600;
 }
 
-h1, h2, h3, h4 {
+h1, 
+h2, 
+h3, 
+h4 {
     line-height: 1.4;
     font-weight: 600;
     margin-top: 0;
@@ -177,7 +180,10 @@ figcaption {
         font-size: 1.13rem;
     }
 
-    h1, h2, h3, h4 {
+    h1, 
+    h2, 
+    h3, 
+    h4 {
         overflow-wrap: normal;
         -webkit-hyphens: none;
         -ms-hyphens: none;
