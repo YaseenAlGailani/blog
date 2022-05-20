@@ -3,4 +3,4 @@
 # blog
 My web development blog - work in progress
 
-[check it here](http://yaseenalgailani.github.io/blog);
+[check it here](http://yaseenalgailani.github.io/blog)
